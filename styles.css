@@ -1,0 +1,26 @@
+
+a {
+  color: green;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color : blue;
+
+
+
+}
+a:active {
+  color : red;
+}
+
+p {
+	color:blue ;
+}
+
+#thing {
+	color: green !important;
+}
