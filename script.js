@@ -136,11 +136,17 @@
 // x();
 // x();
 
-const promise1 = Promise.resolve('1 resolve');
-const promise2 = Promise.reject('2 reject');
+// const promise1 = Promise.resolve('1 resolve');
+// const promise2 = Promise.reject('2 reject');
 
-const promises = [promise1, promise2];
+// const promises = [promise1, promise2];
 
-Promise.race(promises)
-  .then((result) => console.log(result))
-  .catch((err) => console.log(err));
+// Promise.race(promises)
+//   .then((result) => console.log(result))
+//   .catch((err) => console.log(err));
+
+const numbers = [12, 3, 4, 5, 6];
+
+const res = !!numbers.find((item) => item > 2);
+
+console.log(res);
